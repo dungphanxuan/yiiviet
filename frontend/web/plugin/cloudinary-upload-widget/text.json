@@ -1,0 +1,181 @@
+{
+	"en": {
+		"crop": {
+			"title": "Crop",
+			"crop_btn": "Crop",
+			"skip_btn": "Skip",
+			"cancel_btn": "Cancel",
+			"reset_btn": "Reset",
+			"close_btn": "Close",
+			"close_prompt": "Closing will cancel all uploads, Are you sure?",
+			"image_error": "Error loading image",
+			"corner_tooltip": "Drag corner to resize",
+			"handle_tooltip": "Drag handle to resize"
+		},
+		"queue": {
+			"title": "Upload Queue",
+			"title_uploading_with_counter": "Uploading {{num}} Assets",
+			"title_uploading": "Uploading Assets",
+			"mini_title": "Uploaded",
+			"mini_title_uploading": "Uploading",
+			"show_completed": "Show completed",
+			"retry_failed": "Retry failed",
+			"abort_all": "Abort all",
+			"upload_more": "Upload more",
+			"done": "Done",
+			"mini_upload_count": "{{num}} uploaded",
+			"mini_failed": "{{num}} failed",
+			"statuses": {
+				"uploading": "Uploading...",
+				"error": "Error",
+				"uploaded": "Done",
+				"aborted": "Aborted"
+			}
+		},
+		"or": "Or",
+		"back": "Back",
+		"advanced": "Advanced",
+		"close": "Close",
+		"no_results": "No results",
+		"search_placeholder": "Search files",
+		"about_uw": "About the Upload Widget",
+		"menu": {
+			"files": "My Files",
+			"web": "Web Address",
+			"camera": "Camera",
+			"gsearch": "Image Search",
+			"gdrive": "Google Photos",
+			"dropbox": "Dropbox",
+			"facebook": "Facebook",
+			"instagram": "Instagram"
+		},
+		"selection_counter": {
+			"selected": "Selected"
+		},
+		"actions": {
+			"upload": "Upload",
+			"clear_all": "Clear all",
+			"log_out": "Log out"
+		},
+		"notifications": {
+			"general_error": "An error has occurred.",
+			"general_prompt": "Are you sure?",
+			"limit_reached": "No more files can be selected.",
+			"invalid_add_url": "The URL must be valid.",
+			"invalid_public_id": "Public ID cannot contain \\,?,&,#,%,<,>.",
+			"no_new_files": "The files have already been uploaded."
+		},
+		"advanced_options": {
+			"public_id_ph": "Public ID",
+			"tags_ph": "Add a tag",
+			"add_new": "Add a new tag:",
+			"upload_preset_placeholder": "Upload Preset"
+		},
+		"landscape_overlay": {
+			"title": "Landscape mode isn't supported",
+			"description": "Rotate your device back to portrait mode to continue."
+		},
+		"camera": {
+			"main_title": "Camera",
+			"capture": "Capture",
+			"cancel": "Cancel",
+			"take_pic": "Take a picture and upload it",
+			"explanation": "Make sure that your camera is connected and that your browser allows camera capture. When ready, click Capture.",
+			"camera_error": "Failed to access camera",
+			"retry": "Retry Camera",
+			"file_name": "Camera_{{time}}"
+		},
+		"dropbox": {
+			"main_title": "Dropbox",
+			"no_auth_title": "Upload files from your Dropbox account.",
+			"no_auth_action": "Connect to Dropbox",
+			"no_photos": "No Photos",
+			"no_files": "No Files",
+			"root_crumb": "Root",
+			"list_headers": {
+				"select": "Select",
+				"name": "Name",
+				"modified": "Modified"
+			},
+			"menu": {
+				"browse": "Browse",
+				"recent": "Recent"
+			},
+			"authenticating": "Authenticating..."
+		},
+		"facebook": {
+			"main_title": "Facebook",
+			"no_photos": "No photos...",
+			"no_auth_title": "Upload files from your Facebook account.",
+			"no_auth_action": "Connect to Facebook",
+			"no_auth_statement": "We will not post anything without your permission.",
+			"album_subtitle": "{{count}} photos",
+			"menu": {
+				"uploaded": "Your Photos",
+				"tagged": "Photos of You",
+				"albums": "Albums"
+			}
+		},
+		"google_drive": {
+			"main_title": "Google Photos",
+			"no_auth_title": "Upload files from your Google Photos.",
+			"no_auth_action": "Connect to Google Photos",
+			"no_photos": "No Photos",
+			"header_title": "Your Google Photos"
+		},
+		"image_search": {
+			"main_title": "Image Search",
+			"inputPlaceholder": "Search for images",
+			"customPlaceholder": "Search {{site}}",
+			"show_options": "Show Options",
+			"hide_options": "Hide Options",
+			"filters_title": "Site",
+			"all": "all",
+			"rights": "Usage rights:",
+			"rights_options": {
+				"not_filtered": "not filtered by licence",
+				"free": "free to use or share",
+				"free_com": "free to use or share, even commercially",
+				"free_mod": "free to use share or modify",
+				"free_mod_com": "free to use, share or modify, even commercially"
+			},
+			"search_error": "Search failed, please try again."
+		},
+		"instagram": {
+			"main_title": "Instagram",
+			"no_auth_title": "Upload photos from your Instagram account.",
+			"no_auth_action": "Connect to Instagram",
+			"header_title": "Your Recent Instagram Photos",
+			"authenticating": "Authenticating..."
+		},
+		"local": {
+			"browse": "Browse",
+			"main_title": "Upload Files",
+			"dd_title_single": "Drag and Drop an asset here",
+			"dd_title_multi": "Drag and Drop assets here",
+			"drop_title_single": "Drop a file to upload",
+			"drop_title_multiple": "Drop files to upload"
+		},
+		"url": {
+			"main_title": "Remote URL",
+			"inner_title": "Public URL of file to upload:",
+			"input_placeholder": "http://remote.site.example/images/remote-image.jpg"
+		},
+		"uploader": {
+			"filesize": {
+				"na": "N/A",
+				"b": "{{size}} Bytes",
+				"k": "{{size}} KB",
+				"m": "{{size}} MB",
+				"g": "{{size}} GB",
+				"t": "{{size}} TB"
+			},
+			"errors": {
+				"file_too_large": "File size ({{size}}) exceeds maximum allowed ({{allowed}})",
+				"max_dimensions_validation": "Image dimensions ({{width}}X{{height}}) are bigger than the maximum allowed: ({{maxWidth}}X{{maxHeight}})",
+				"min_dimensions_validation": "Image dimensions ({{width}}X{{height}}) are smaller than the minimum required: ({{minWidth}}X{{minHeight}})",
+				"unavailable": "NA"
+			}
+		}
+	}
+}

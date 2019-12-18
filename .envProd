@@ -1,0 +1,59 @@
+# Framework
+# ---------
+YII_DEBUG       = false
+YII_ENV         = dev
+APP_MAINTENANCE = 0
+
+# Application
+# -----------
+LINK_ASSETS=false
+
+# Databases
+# ---------
+DB_DSN           = mysql:host=localhost;port=3306;dbname=admin_db1
+DB_USERNAME      = admin_db1
+DB_PASSWORD      = 3gptg1rwDI
+DB_TABLE_PREFIX  = tbl_
+DB_CHARSET       = utf8mb4
+
+
+# Urls
+# ----
+API_HOST_INFO         = http://phanxuandung.name.vn/api
+FRONTEND_HOST_INFO    = http://phanxuandung.name.vn
+BACKEND_HOST_INFO     = http://phanxuandung.name.vn/backend
+STORAGE_HOST_INFO     = http://phanxuandung.name.vn/storage
+
+# Single domain example
+# ----
+#FRONTEND_HOST_INFO    = http://phanxuandung.name.vn
+#FRONTEND_BASE_URL     = /
+#BACKEND_HOST_INFO     = http://phanxuandung.name.vn
+#BACKEND_BASE_URL      = /backend/web
+#STORAGE_HOST_INFO     = http://phanxuandung.name.vn
+#STORAGE_BASE_URL     = /storage/web
+
+API_BASE_URL = http://127.0.0.1:3000/
+CLOUDINARY_UPLOAD_URL = http://dropcloudinary.herokuapp.com/upload-cloud
+# Other
+# -----
+SMTP_HOST = mailcatcher
+SMTP_PORT = 1025
+
+FRONTEND_COOKIE_VALIDATION_KEY = 3wdv3fe7tvzzx8k9i3sNpqXLKiD7rlSV
+BACKEND_COOKIE_VALIDATION_KEY = CVRl7xZLN2JGrGyhsd1bFR0MDXCDk89d
+
+ADMIN_EMAIL    = admin@phanxuandung.name.vn
+ROBOT_EMAIL    = robot@phanxuandung.name.vn
+
+GITHUB_CLIENT_ID = your-client-id
+GITHUB_CLIENT_SECRET = your-client-secret
+
+GLIDE_SIGN_KEY = 7YP2GoEohDUn9ma-rkpmKg3xF0rG7vqq
+GLIDE_MAX_IMAGE_SIZE = 4000000
+
+# To resolve "Invalid volumes",For Toolbox. (https://github.com/docker/toolbox/issues/607)
+COMPOSE_CONVERT_WINDOWS_PATHS=1
+
+# Config for Docker for Mac
+#XDEBUG_CONFIG = "remote_connect_back=0 remote_host=host.docker.internal"
